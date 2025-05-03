@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: cursive;
 }
 
 .logo_alg {
@@ -33,11 +33,17 @@ header {
 }
 
 .link-haeder {
-    background-color: white;
-    border-radius: 7px;
-    padding: 10px 15px 10px 15px;
-    color: black;
+    font-size: 24px;
+    color: #b8baff;
     text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.link-haeder:hover {
+    color: #ffb8d6;
+    transform: scale(1.2);
 }
 
 footer {
@@ -67,4 +73,17 @@ footer {
     text-decoration: none;
     padding: 0px 20px 0px 20px;
     color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+}
+
+.nav_main:hover {
+    color: #ffeab8;
+    transform: scale(1.2);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
 }
