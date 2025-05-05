@@ -39,6 +39,7 @@ header {
     transition: all 0.3s ease;
     display: flex;
     justify-content: center;
+    
 }
 
 .link-haeder:hover {
@@ -54,7 +55,6 @@ footer {
 
 .link_footer {
     text-decoration: none;
-    background-color: white;
     border-radius: 7px;
     padding: 10px 15px 10px 15px;
     color: black;
@@ -86,4 +86,19 @@ footer {
 nav {
     display: flex;
     justify-content: center;
+}
+
+.link_footer {
+    font-size: 24px;
+    color: #b8baff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.link_footer:hover {
+    color: #ffb8d6;
+    transform: scale(1.2);
 }
