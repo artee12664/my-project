@@ -73,7 +73,6 @@ footer {
     text-decoration: none;
     padding: 0px 20px 0px 20px;
     color: black;
-    text-decoration: none;
     transition: all 0.3s ease;
     
 }
@@ -101,4 +100,25 @@ nav {
 .link_footer:hover {
     color: #ffb8d6;
     transform: scale(1.2);
+}
+
+.su-27 {
+  width: 600px;
+  border-radius: 10px;
+  height: 375px;
+  margin: 5px 10px 5px 160px;
+}
+
+.t90 {
+  width: 600px;
+  height: 375px;
+  border-radius: 10px;
+  margin: 5px 15px 5px 1px;
+}
+  
+}
+
+.myphoto {
+  dispaly: flex;
+  justify-content: center;
 }
