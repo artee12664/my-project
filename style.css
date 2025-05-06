@@ -106,19 +106,17 @@ nav {
   width: 600px;
   border-radius: 10px;
   height: 375px;
-  margin: 5px 10px 5px 160px;
+  margin: 5px 0px 10px 0px;
 }
 
 .t90 {
   width: 600px;
-  height: 375px;
+  margin: 5px 0px 10px 0px;
   border-radius: 10px;
-  margin: 5px 15px 5px 1px;
-}
-  
 }
 
-.myphoto {
-  dispaly: flex;
+.obomne {
+  display: flex;
   justify-content: center;
+  gap: 30px;
 }
