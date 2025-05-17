@@ -39,6 +39,7 @@ header {
     transition: all 0.3s ease;
     display: flex;
     justify-content: center;
+    
 }
 
 .link-haeder:hover {
@@ -122,14 +123,21 @@ nav {
 
 .link-main {
     font-size: 24px;
-    color: #4169E1;
+    color: #0000CD;
     text-decoration: none;
     transition: all 0.3s ease;
     display: flex;
     justify-content: center;
-    padding: 5px 0px 5px 0px
+    padding: 10px 0px 10px 0px
+
 }
-.link-main:hover {
-    color: #0000FF;
-    transform: scale(1.2);
+
+.link-main:hover{
+  color: #000080;
+  transform: scale(1.2);
+}
+
+p {
+  text-align:center;
+  font-size:25px;
 }
