@@ -1,5 +1,7 @@
 body {
     font-family: cursive;
+    background-color:LightCyan;
+    border-radius:10px;
 }
 
 .logo_alg {
@@ -11,13 +13,13 @@ body {
 
 h1 {
     text-align: center;
-    background-color: aqua;
+    background-color: SkyBlue;
     border-radius: 15px;
     padding: 5px 10px 5px 10px;
 }
 
 main {
-    background-color: aquamarine;
+    background-color: PaleTurquoise;
     border-radius: 15px;
     margin-bottom: 15px;
 }
@@ -27,7 +29,7 @@ ul {
 }
 
 header {
-    background-color: blue;
+    background-color: #4169E1;
     border-radius: 15px;
     padding: 15px 20px 15px 20px;
 }
@@ -43,12 +45,12 @@ header {
 }
 
 .link-haeder:hover {
-    color: #ffb8d6;
+    color: #ffeab8;
     transform: scale(1.2);
 }
 
 footer {
-    background-color: blue;
+    background-color: #4169E1;
     border-radius: 15px;
     padding: 15px 20px 15px 20px;
 }
@@ -98,7 +100,7 @@ nav {
 }
 
 .link_footer:hover {
-    color: #ffb8d6;
+    color: #ffeab8;
     transform: scale(1.2);
 }
 
